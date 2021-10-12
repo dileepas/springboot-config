@@ -5,9 +5,9 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class ApplicationConfigBeen {
-    @Value("${name}")
+
     private String name;
-    @Value("${age}")
+
     private int age;
 
     public int getAge() {
