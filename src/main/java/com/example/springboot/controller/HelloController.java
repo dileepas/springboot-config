@@ -23,7 +23,7 @@ public class HelloController {
 
     @GetMapping("/")
     public String index() throws Exception {
-        return "Greetings from Spring Boot!";
+        return "Greetings from Spring Boot !!!";
     }
 
     @GetMapping("/todo")
